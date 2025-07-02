@@ -39,6 +39,22 @@ if (salario >= 11000) {
 bonusValor = salario * bonusPercentual;
 
 console.log(
-  `${funcionario.nome} recebeu um bônus de ${bonusPercentual * 100}%, ganhando R$ ${bonusValor.toFixed(2)}`
+  `${funcionario.nome} recebeu um bônus de ${
+    bonusPercentual * 100
+  }%, ganhando R$ ${bonusValor.toFixed(2)}`
 );
+
+
+// Sitema de acesso a uma boate
+
+const jovem = {
+  nome: "Marcos",
+  idade: 18,
+}
+
+if(jovem.idade >= 18) {
+  console.log("Acesso liberado");
+} else {
+  console.log("Acesso negado");
+}
 
